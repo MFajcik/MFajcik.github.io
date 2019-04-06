@@ -87,7 +87,7 @@ scholar:
 
   last_name: Fajcik
 
-  style: apa
+  style: assets/scholar/apa.csl
   locale: en
 
   sort_by: year
@@ -103,6 +103,12 @@ scholar:
   details_dir: bibliography
   details_layout: bibtex.html
   details_link: Details
+  bibliography_template: publication-entry
+
+  bibtex_filters:
+  - superscript
+  - latex
+
 
   query: "@*"
 
