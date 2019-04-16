@@ -16,7 +16,7 @@ news: true
 social: true
 ---
 
-Im a second-year PhD student in Natural Language Processing from <a href="http://knot.fit.vutbr.cz/">Knowledge Technology Research Group</a> active at FIT BUT in Czech Republic, advised by doc. <a href="http://www.fit.vutbr.cz/~smrz/index.php.en">Pavel Smrž</a>. My faculty webpage is available <a href="http://www.fit.vutbr.cz/~ifajcik/index.php.en">here</a>.
+Im a second-year PhD student in Natural Language Processing from <a href="http://knot.fit.vutbr.cz/">Knowledge Technology Research Group</a> active at FIT BUT in Czech Republic, advised by prof. <a href="http://www.fit.vutbr.cz/~smrz/index.php.en">Pavel Smrž</a>. My faculty webpage is available <a href="http://www.fit.vutbr.cz/~ifajcik/index.php.en">here</a>.
 
 My main research interests are problems related to Open-Domain Question Answering. This includes topics such as representation learning, document retrieval/re-ranking, machine comprehension and deep generative models.
 
