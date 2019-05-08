@@ -22,7 +22,7 @@ medium_username: # your Medium username
 quora_username: # your Quora username
 
 contact_note:
-google_analytics: # UA-XXXXXXXXX out your google-analytics code
+google_analytics: UA-139872288-1 # UA-XXXXXXXXX out your google-analytics code
 
 # -----------------------------------------------------------------------------
 # Blog
