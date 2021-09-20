@@ -30,16 +30,7 @@
     pages = "1097--1104",
     abstract = "This paper describes our system submitted to SemEval 2019 Task 7: RumourEval 2019: Determining Rumour Veracity and Support for Rumours, Subtask A (Gorrell et al., 2019). The challenge focused on classifying whether posts from Twitter and Reddit support, deny, query, or comment a hidden rumour, truthfulness of which is the topic of an underlying discussion thread. We formulate the problem as a stance classification, determining the rumour stance of a post with respect to the previous thread post and the source thread post. The recent BERT architecture was employed to build an end-to-end system which has reached the F1 score of 61.67 {\%} on the provided test data. Without any hand-crafted feature, the system finished at the 2nd place in the competition, only 0.2 {\%} behind the winner.",
 }
-@misc{fajcik2020rethinking,
-      title={Rethinking the objectives of extractive question answering},
-      author={Martin Fajcik and Josef Jon and Santosh Kesiraju and Pavel Smrz},
-      year={2020},
-      eprint={2008.12804},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/pdf/2008.12804.pdf},
-      abstract = { This work demonstrates that, contrary to a common belief, using the objective with independence assumption for modelling the span probability P(a_s,a_e)=P(a_s)P(a_e) of span starting at position as and ending at position ae has adverse effects. Therefore we propose multiple approaches to modelling joint probability P(a_s,a_e) directly. Among those, we propose a compound objective, composed from the joint probability while still keeping the objective with independence assumption as an auxiliary objective. We find that the compound objective is consistently superior or equal to other assumptions in exact match. Additionally, we identified common errors caused by the assumption of independence and manually checked the counterpart predictions, demonstrating the impact of the compound objective on the real examples. Our findings are supported via experiments with three extractive QA models (BIDAF, BERT, ALBERT) over six datasets and our code, individual results and manual analysis are available online. }
-}
+
 @inproceedings{fajcik-etal-2020-fit,
     title = "{BUT}-{FIT} at {S}em{E}val-2020 Task 5: Automatic Detection of Counterfactual Statements with Deep Pre-trained Language Representation Models",
     author = "Fajcik, Martin  and
@@ -123,3 +114,17 @@
     abstract = {This work presents a novel four-stage open-domain QA pipeline R2-D2 (Rank twice, reaD twice). The pipeline is composed of a retriever, passage reranker, extractive reader, generative reader and a mechanism that aggregates the final prediction from all system's components. We demonstrate its strength across three open-domain QA datasets: NaturalQuestions, TriviaQA and EfficientQA, surpassing state-of-the-art on the first two. Our analysis demonstrates that: (i) combining extractive and generative reader yields absolute improvements up to 5 exact match and it is at least twice as effective as the posterior averaging ensemble of the same models with different parameters, (ii) the extractive reader with fewer parameters can match the performance of the generative reader on extractive QA datasets.}
 }
 
+
+@inproceedings{fajcik2021rethinking,
+    title = "Rethinking the Objectives of Extractive Question Answering",
+    author = "Fajcik, Martin  and
+      Josef, Jon  and
+      Pavel, Smrz",
+    booktitle = "Proceedings of the 3nd Workshop on Machine Reading for Question Answering",
+    month = nov,
+    year = "2021",
+    address = "Punta Cana, Dominican Republic",
+    publisher = "Association for Computational Linguistics",
+    url = "https://arxiv.org/pdf/2008.12804.pdf",
+    abstract = "This work demonstrates that using the objective with independence assumption for modelling the span probability P(a_s,a_e)=P(a_s)P(a_e) of span starting at position as and ending at position ae has adverse effects. Therefore we propose multiple approaches to modelling joint probability P(a_s,a_e) directly. Among those, we propose a compound objective, composed from the joint probability while still keeping the objective with independence assumption as an auxiliary objective. We find that the compound objective is consistently superior or equal to other assumptions in exact match. Additionally, we identified common errors caused by the assumption of independence and manually checked the counterpart predictions, demonstrating the impact of the compound objective on the real examples. Our findings are supported via experiments with three extractive QA models (BIDAF, BERT, ALBERT) over six datasets and our code, individual results and manual analysis are available online.",
+}
