@@ -80,7 +80,7 @@
 }
 
 @article{fajcik2021pruning,
-  title={Pruning the Index Contents for Memory Efficient Open-Domain QA},
+  title={{P}runing the {I}ndex {C}ontents for {M}emory {E}fficient {O}pen-{D}omain {QA}},
   author={Fajcik, Martin and Docekal, Martin and Ondrej, Karel and Smrz, Pavel},
   journal={arXiv preprint arXiv:2102.10697},
   year={2021},
@@ -88,7 +88,7 @@
 }
 
 @inproceedings{pmlr-v133-min21a,
-  title = 	 {NeurIPS 2020 EfficientQA Competition: Systems, Analyses and Lessons Learned},
+  title = 	 {{N}eur{IPS} 2020 EfficientQA Competition: Systems, Analyses and Lessons Learned},
   author =       {Min, Sewon and Boyd-Graber, Jordan and Alberti, Chris and Chen, Danqi and Choi, Eunsol and Collins, Michael and Guu, Kelvin and Hajishirzi, Hannaneh and Lee, Kenton and Palomaki, Jennimaria and Raffel, Colin and Roberts, Adam and Kwiatkowski, Tom and Lewis, Patrick and Wu, Yuxiang and K\"uttler, Heinrich and Liu, Linqing and Minervini, Pasquale and Stenetorp, Pontus and Riedel, Sebastian and Yang, Sohee and Seo, Minjoon and Izacard, Gautier and Petroni, Fabio and Hosseini, Lucas and Cao, Nicola De and Grave, Edouard and Yamada, Ikuya and Shimaoka, Sonse and Suzuki, Masatoshi and Miyawaki, Shumpei and Sato, Shun and Takahashi, Ryo and Suzuki, Jun and Fajcik, Martin and Docekal, Martin and Ondrej, Karel and Smrz, Pavel and Cheng, Hao and Shen, Yelong and Liu, Xiaodong and He, Pengcheng and Chen, Weizhu and Gao, Jianfeng and Oguz, Barlas and Chen, Xilun and Karpukhin, Vladimir and Peshterliev, Stan and Okhonko, Dmytro and Schlichtkrull, Michael and Gupta, Sonal and Mehdad, Yashar and Yih, Wen-tau},
   booktitle = 	 {Proceedings of the NeurIPS 2020 Competition and Demonstration Track},
   pages = 	 {86--111},
@@ -110,7 +110,7 @@
     year = "2021",
     address = "Punta Cana, Dominican Republic",
     publisher = "Association for Computational Linguistics",
-    url = "http://arxiv.org/abs/2109.03502",
+    url = "https://aclanthology.org/2021.findings-emnlp.73/",
     abstract = {This work presents a novel four-stage open-domain QA pipeline R2-D2 (Rank twice, reaD twice). The pipeline is composed of a retriever, passage reranker, extractive reader, generative reader and a mechanism that aggregates the final prediction from all system's components. We demonstrate its strength across three open-domain QA datasets: NaturalQuestions, TriviaQA and EfficientQA, surpassing state-of-the-art on the first two. Our analysis demonstrates that: (i) combining extractive and generative reader yields absolute improvements up to 5 exact match and it is at least twice as effective as the posterior averaging ensemble of the same models with different parameters, (ii) the extractive reader with fewer parameters can match the performance of the generative reader on extractive QA datasets.}
 }
 
@@ -136,6 +136,43 @@
   title = {Claim-Dissector: An Interpretable Fact-Checking System with Joint Re-ranking and Veracity Prediction},
   publisher = {arXiv},
   year = {2022},
+  abstract="We present Claim-Dissector: a novel latent variable model for fact-checking and fact-analysis, which given a claim and a set of retrieved provenances allows learning jointly: (i) what are the relevant provenances to this claim (ii) what is the veracity of this claim. We propose to disentangle the per-provenance relevance probability and its contribution to the final veracity probability in an interpretable way - the final veracity probability is proportional to a linear ensemble of per-provenance relevance probabilities. This way, it can be clearly identified the relevance of which sources contributes to what extent towards the final probability. We show that our system achieves state-of-the-art results on FEVER dataset comparable to two-stage systems typically used in traditional fact-checking pipelines, while it often uses significantly less parameters and computation.
+Our analysis shows that proposed approach further allows to learn not just which provenances are relevant, but also which provenances lead to supporting and which toward denying the claim, without direct supervision. This not only adds interpretability, but also allows to detect claims with conflicting evidence automatically. Furthermore, we study whether our model can learn fine-grained relevance cues while using coarse-grained supervision. We show that our model can achieve competitive sentence-recall while using only paragraph-level relevance supervision. Finally, traversing towards the finest granularity of relevance, we show that our framework is capable of identifying relevance at the token-level. To do this, we present a new benchmark focusing on token-level interpretability - humans annotate tokens in relevant provenances they considered essential when making their judgement. Then we measure how similar are these annotations to tokens our model is focusing on. Our code, and dataset will be released online.",
   copyright = {Creative Commons Attribution Non Commercial Share Alike 4.0 International}
 }
-
+@inproceedings{burdisso-etal-2022-idiapers,
+    title = "{IDIAP}ers @ Causal News Corpus 2022: Efficient Causal Relation Identification Through a Prompt-based Few-shot Approach",
+    author = "Burdisso, Sergio  and
+      Zuluaga-gomez, Juan Pablo  and
+      Villatoro-tello, Esau  and
+      Fajcik, Martin  and
+      Singh, Muskaan  and
+      Smrz, Pavel  and
+      Motlicek, Petr",
+    booktitle = "Proceedings of the 5th Workshop on Challenges and Applications of Automated Extraction of Socio-political Events from Text (CASE)",
+    month = dec,
+    year = "2022",
+    address = "Abu Dhabi, United Arab Emirates (Hybrid)",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.case-1.9",
+    pages = "61--69",
+    abstract = "In this paper, we describe our participation in the subtask 1 of CASE-2022, Event Causality Identification with Casual News Corpus. We address the Causal Relation Identification (CRI) task by exploiting a set of simple yet complementary techniques for fine-tuning language models (LMs) on a few annotated examples (i.e., a few-shot configuration).We follow a prompt-based prediction approach for fine-tuning LMs in which the CRI task is treated as a masked language modeling problem (MLM). This approach allows LMs natively pre-trained on MLM tasks to directly generate textual responses to CRI-specific prompts.We compare the performance of this method against ensemble techniques trained on the entire dataset.Our best-performing submission was fine-tuned with only 256 instances per class, 15.7{\%} of the all available data, and yet obtained the second-best precision (0.82), third-best accuracy (0.82), and an F1-score (0.85) very close to what was reported by the winner team (0.86).",
+}
+@inproceedings{fajcik-etal-2022-idiapers,
+    title = "{IDIAP}ers @ Causal News Corpus 2022: Extracting Cause-Effect-Signal Triplets via Pre-trained Autoregressive Language Model",
+    author = "Fajcik, Martin  and
+      Singh, Muskaan  and
+      Zuluaga-gomez, Juan Pablo  and
+      Villatoro-tello, Esau  and
+      Burdisso, Sergio  and
+      Motlicek, Petr  and
+      Smrz, Pavel",
+    booktitle = "Proceedings of the 5th Workshop on Challenges and Applications of Automated Extraction of Socio-political Events from Text (CASE)",
+    month = dec,
+    year = "2022",
+    address = "Abu Dhabi, United Arab Emirates (Hybrid)",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.case-1.10",
+    pages = "70--78",
+    abstract = "In this paper, we describe our shared task submissions for Subtask 2 in CASE-2022, Event Causality Identification with Casual News Corpus. The challenge focused on the automatic detection of all cause-effect-signal spans present in the sentence from news-media. We detect cause-effect-signal spans in a sentence using T5 {---} a pre-trained autoregressive language model. We iteratively identify all cause-effect-signal span triplets, always conditioning the prediction of the next triplet on the previously predicted ones. To predict the triplet itself, we consider different causal relationships such as cause→effect→signal. Each triplet component is generated via a language model conditioned on the sentence, the previous parts of the current triplet, and previously predicted triplets. Despite training on an extremely small dataset of 160 samples, our approach achieved competitive performance, being placed second in the competition. Furthermore, we show that assuming either cause→effect or effect→cause order achieves similar results.",
+}
