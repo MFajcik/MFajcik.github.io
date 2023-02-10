@@ -8,7 +8,7 @@ footer_text: Created by Martin Fajčík
 
 url:  # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
-last_updated: 6.4.2019 # leave blank if you don't want to display last updated
+last_updated: 10.2.2023 # leave blank if you don't want to display last updated
 
 # -----------------------------------------------------------------------------
 # Social integration
