@@ -2,7 +2,7 @@
 layout: about
 permalink: /
 title: <strong>Martin</strong> Fajčík
-description: <a href="">PhD student at BUT-FIT and IDIAP</a>.
+description: <a href="">PhD candidate at BUT-FIT</a>.
 
 profile:
   align: right
