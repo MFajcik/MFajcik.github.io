@@ -6,7 +6,7 @@ middle_name:
 last_name: Fajčík
 email: ifajcik@fit.vutbr.cz
 description: # this means to ignore newlines until "url:"
-footer_text: Created by Martin Fajčík, using Al-Folio github theme
+footer_text: Created by Martin Fajčík, using Al-Folio theme.
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
