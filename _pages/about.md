@@ -2,18 +2,21 @@
 layout: about
 permalink: /
 title: <strong>Martin</strong> Fajčík
-description: <a href="">PhD candidate at BUT-FIT</a>.
+#subtitle: <a href="">Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
   image: prof_pic.jpg
+  image_circular: false # crops the image to make it circular
   address: >
     <p>Office no. L220.2</p>
     <p>Božetěchova 1/2</p>
     <p>612 66 Brno, Czech Republic</p>
 
-news: true
-social: true
+news: true  # includes a list of news items
+latest_posts: true  # includes a list of the newest posts
+selected_papers: true # includes a list of papers marked as "selected={true}"
+social: true  # includes social icons at the bottom of the page
 ---
 
 I am a final-year PhD student in Natural Language Processing from <a href="http://knot.fit.vutbr.cz/">Knowledge Technology Research Group</a> active at FIT-BUT in Brno, Czech Republic, advised by prof. <a href="http://www.fit.vutbr.cz/~smrz/index.php.en">Pavel Smrž</a>. My faculty webpage is available <a href="http://www.fit.vutbr.cz/~ifajcik/index.php.en">here</a>.
