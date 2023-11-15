@@ -9,4 +9,4 @@ _site
 .idea
 Gemfile.lock
 vendor
-
+env
