@@ -23,4 +23,4 @@ I am a final-year PhD student in Natural Language Processing from <a href="http:
 
 My main research interests are problems related to Question Answering and Fact-Checking. This includes topics such as latent variable models, document retrieval/re-ranking, machine comprehension or faithful explainability.
 
-If you are a student looking for BSc/MSc thesis supervision in Natural Language Processing and you are not afraid of doing the challenging research, feel free to <a href="mailto:ifajcik@fit.vutbr.cz">contact me</a>.
+If you are a student looking for BSc/MSc thesis supervision in Natural Language Processing and you are not afraid of doing the challenging research, feel free to <a href="mailto:martin.fajcik@vut.cz">contact me</a>.
