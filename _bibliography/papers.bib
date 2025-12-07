@@ -208,3 +208,36 @@
     pages = "10184--10205",
     abstract = "We present Claim-Dissector: a novel latent variable model for fact-checking and analysis, which given a claim and a set of retrieved evidence jointly learns to identify: (i) the relevant evidences to the given claim (ii) the veracity of the claim. We propose to disentangle the per-evidence relevance probability and its contribution to the final veracity probability in an interpretable way {---} the final veracity probability is proportional to a linear ensemble of per-evidence relevance probabilities. In this way, the individual contributions of evidences towards the final predicted probability can be identified. In per-evidence relevance probability, our model can further distinguish whether each relevant evidence is supporting (S) or refuting (R) the claim. This allows to quantify how much the S/R probability contributes to final verdict or to detect disagreeing evidence. Despite its interpretable nature, our system achieves results competetive with state-of-the-art on the FEVER dataset, as compared to typical two-stage system pipelines, while using significantly fewer parameters. Furthermore, our analysis shows that our model can learn fine-grained relevance cues while using coarse-grained supervision and we demonstrate it in 2 ways. (i) We show that our model can achieve competitive sentence recall while using only paragraph-level relevance supervision. (ii) Traversing towards the finest granularity of relevance, we show that our model is capable of identifying relevance at the token level. To do this, we present a new benchmark TLR-FEVER focusing on token-level interpretability {---} humans annotate tokens in relevant evidences they considered essential when making their judgment. Then we measure how similar are these annotations to the tokens our model is focusing on.",
 }
+@inproceedings{jarolim2025llmsevidence,
+  title        = {Can LLMs extract human-like fine-grained evidence for evidence-based fact-checking?},
+  author       = {Jarolím, Antonín and Fajčík, Martin and Makaiová, Lucia},
+  booktitle    = {Proceedings of the 19th Workshop on Recent Advances in Slavonic Natural Language Processing, RASLAN 2025},
+  year         = {2025}
+}
+
+@inproceedings{makaiova2025claims,
+  title        = {Examining the Metrics for Document-Level Claim Extraction in Czech and Slovak},
+  author       = {Makaiová, Lucia and Fajčík, Martin and Jarolím, Antonín},
+  booktitle    = {Proceedings of the 19th Workshop on Recent Advances in Slavonic Natural Language Processing, RASLAN 2025},
+  year         = {2025}
+}
+
+@inproceedings{stetina2024dareczech,
+  title        = {A Comparative Study of Text Retrieval Models on DaReCzech},
+  author       = {Stetina, Jakub and Fajčík, Martin and Štefánik, Michal and Hradis, Michal},
+  booktitle    = {Proceedings of the 18th Workshop on Recent Advances in Slavonic Natural Language Processing, RASLAN 2024},
+  pages        = {85--100},
+  year         = {2024},
+  publisher    = {Tribun EU}
+}
+
+@article{fajcik2025benczechmark,
+  title        = {BenCzechMark: A Czech-Centric Multitask and Multimetric Benchmark for Large Language Models with Duel Scoring Mechanism},
+  author       = {Fajčík, Martin and Docekal, Martin and Dolezal, Jan and Ondřej, Karel and Beneš, Karel and Kapsa, Jan and Smrž, Pavel and Polok, Alexander and Hradis, Michal and Neverilová, Zuzana and others},
+  journal      = {Transactions of the Association for Computational Linguistics},
+  volume       = {13},
+  pages        = {1068--1095},
+  year         = {2025},
+  publisher    = {MIT Press}
+}
+
