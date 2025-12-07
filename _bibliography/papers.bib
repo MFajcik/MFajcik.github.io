@@ -208,11 +208,26 @@
     pages = "10184--10205",
     abstract = "We present Claim-Dissector: a novel latent variable model for fact-checking and analysis, which given a claim and a set of retrieved evidence jointly learns to identify: (i) the relevant evidences to the given claim (ii) the veracity of the claim. We propose to disentangle the per-evidence relevance probability and its contribution to the final veracity probability in an interpretable way {---} the final veracity probability is proportional to a linear ensemble of per-evidence relevance probabilities. In this way, the individual contributions of evidences towards the final predicted probability can be identified. In per-evidence relevance probability, our model can further distinguish whether each relevant evidence is supporting (S) or refuting (R) the claim. This allows to quantify how much the S/R probability contributes to final verdict or to detect disagreeing evidence. Despite its interpretable nature, our system achieves results competetive with state-of-the-art on the FEVER dataset, as compared to typical two-stage system pipelines, while using significantly fewer parameters. Furthermore, our analysis shows that our model can learn fine-grained relevance cues while using coarse-grained supervision and we demonstrate it in 2 ways. (i) We show that our model can achieve competitive sentence recall while using only paragraph-level relevance supervision. (ii) Traversing towards the finest granularity of relevance, we show that our model is capable of identifying relevance at the token level. To do this, we present a new benchmark TLR-FEVER focusing on token-level interpretability {---} humans annotate tokens in relevant evidences they considered essential when making their judgment. Then we measure how similar are these annotations to the tokens our model is focusing on.",
 }
+@inproceedings{stetina2024dareczech,
+  title        = {A Comparative Study of Text Retrieval Models on DaReCzech},
+  author       = {Stetina, Jakub and Fajčík, Martin and Štefánik, Michal and Hradis, Michal},
+  booktitle    = {Proceedings of the 18th Workshop on Recent Advances in Slavonic Natural Language Processing, RASLAN 2024},
+  pages        = {85--100},
+  year         = {2024},
+  publisher    = {Tribun EU},
+  html = "https://arxiv.org/abs/2411.12921",
+  pdf = "https://nlp.fi.muni.cz/raslan/2024/paper4.pdf",
+  abstract = "This article presents a comprehensive evaluation of 7 off-the-shelf document retrieval models: Splade, Plaid, Plaid-X, SimCSE, Contriever, OpenAI ADA and Gemma2 chosen to determine their performance on the Czech retrieval dataset DaReCzech. The primary objective of our experiments is to estimate the quality of modern retrieval approaches in the Czech language. Our analyses include retrieval quality, speed, and memory footprint. Secondly, we analyze whether it is better to use the model directly in Czech text, or to use machine translation into English, followed by retrieval in English. Our experiments identify the most effective option for Czech information retrieval. The findings revealed notable performance differences among the models, with Gemma22 achieving the highest precision and recall, while Contriever performing poorly. Conclusively, SPLADE and PLAID models offered a balance of efficiency and performance.",
+}
 @inproceedings{jarolim2025llmsevidence,
   title        = {Can LLMs extract human-like fine-grained evidence for evidence-based fact-checking?},
   author       = {Jarolím, Antonín and Fajčík, Martin and Makaiová, Lucia},
   booktitle    = {Proceedings of the 19th Workshop on Recent Advances in Slavonic Natural Language Processing, RASLAN 2025},
-  year         = {2025}
+  year         = {2025},
+  publisher    = {Tribun EU},
+  html = "https://arxiv.org/abs/2511.21401",
+  pdf = "https://arxiv.org/pdf/2511.21401",
+  abstract = "Misinformation frequently spreads in user comments under online news articles, highlighting the need for effective methods to detect factually incorrect information. To strongly support or refute claims extracted from such comments, it is necessary to identify relevant documents and pinpoint the exact text spans that justify or contradict each claim. This paper focuses on the latter task -- fine-grained evidence extraction for Czech and Slovak claims. We create new dataset, containing two-way annotated fine-grained evidence created by paid annotators. We evaluate large language models (LLMs) on this dataset to assess their alignment with human annotations. The results reveal that LLMs often fail to copy evidence verbatim from the source text, leading to invalid outputs. Error-rate analysis shows that the {llama3.1:8b model achieves a high proportion of correct outputs despite its relatively small size, while the gpt-oss-120b model underperforms despite having many more parameters. Furthermore, the models qwen3:14b, deepseek-r1:32b, and gpt-oss:20b demonstrate an effective balance between model size and alignment with human annotations.",
 }
 
 @inproceedings{makaiova2025claims,
@@ -220,15 +235,10 @@
   author       = {Makaiová, Lucia and Fajčík, Martin and Jarolím, Antonín},
   booktitle    = {Proceedings of the 19th Workshop on Recent Advances in Slavonic Natural Language Processing, RASLAN 2025},
   year         = {2025}
-}
-
-@inproceedings{stetina2024dareczech,
-  title        = {A Comparative Study of Text Retrieval Models on DaReCzech},
-  author       = {Stetina, Jakub and Fajčík, Martin and Štefánik, Michal and Hradis, Michal},
-  booktitle    = {Proceedings of the 18th Workshop on Recent Advances in Slavonic Natural Language Processing, RASLAN 2024},
-  pages        = {85--100},
-  year         = {2024},
-  publisher    = {Tribun EU}
+  publisher    = {Tribun EU},
+  html = "https://arxiv.org/abs/2511.14566",
+  pdf = "https://arxiv.org/pdf/2511.14566",
+  abstract = "Document-level claim extraction remains an open challenge in the field of fact-checking, and subsequently, methods for evaluating extracted claims have received limited attention. In this work, we explore approaches to aligning two sets of claims pertaining to the same source document and computing their similarity through an alignment score. We investigate techniques to identify the best possible alignment and evaluation method between claim sets, with the aim of providing a reliable evaluation framework. Our approach enables comparison between model-extracted and human-annotated claim sets, serving as a metric for assessing the extraction performance of models and also as a possible measure of inter-annotator agreement. We conduct experiments on newly collected dataset-claims extracted from comments under Czech and Slovak news articles-domains that pose additional challenges due to the informal language, strong local context, and subtleties of these closely related languages. The results draw attention to the limitations of current evaluation approaches when applied to document-level claim extraction and highlight the need for more advanced methods-ones able to correctly capture semantic similarity and evaluate essential claim properties such as atomicity, checkworthiness, and decontextualization.",
 }
 
 @article{fajcik2025benczechmark,
@@ -238,6 +248,9 @@
   volume       = {13},
   pages        = {1068--1095},
   year         = {2025},
-  publisher    = {MIT Press}
+  publisher    = {MIT Press},
+  html = "https://direct.mit.edu/tacl/article/doi/10.1162/TACL.a.32/132962/BenCzechMark-A-Czech-Centric-Multitask-and",
+  pdf = "https://direct.mit.edu/tacl/article-pdf/doi/10.1162/TACL.a.32/2551338/tacl.a.32.pdf",
+  abstract = "We present BenCzechMark (BCM), the first comprehensive Czech language benchmark designed for large language models, offering diverse tasks, multiple task formats, and multiple evaluation metrics. Its duel scoring system is grounded in statistical significance theory and uses aggregation across tasks inspired by social preference theory. Our benchmark encompasses 50 challenging tasks, with corresponding test datasets, primarily in native Czech, with 14 newly collected ones. These tasks span 8 categories and cover diverse domains, including historical Czech news, essays from pupils or language learners, and spoken word. Furthermore, we collect and clean BUT-Large Czech Collection, the largest publicly available clean Czech language corpus, and use it for (i) contamination analysis and (ii) continuous pretraining of the first Czech-centric 7B language model with Czech-specific tokenization. We use our model as a baseline for comparison with publicly available multilingual models. Lastly, we release and maintain a leaderboard with existing 50 model submissions, where new model submissions can be made at https://huggingface.co/spaces/CZLC/BenCzechMark.",
 }
 
